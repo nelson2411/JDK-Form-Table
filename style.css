@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+/* Your Styles */
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper > h1 {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  padding: 50px 20px;
+  background-color: rgb(185, 185, 185);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* add box-shadow only in the right and bottom */
+  box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);
+}
+
+.form-group {
+  margin: 18px 0;
+}
+
+.form-group > label {
+  text-align: left;
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.form-group > input {
+  padding: 8px 12px;
+  border-radius: 2px;
+  border: none;
+  width: 300px;
+}
+
+form > input[type="submit"] {
+  padding: 12px 20px;
+  border-radius: 2px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  border-collapse: collapse;
+
+  box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 20px;
+  text-align: left;
+}
+
+table td {
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+table td button {
+  padding: 8px 12px;
+  border-radius: 2px;
+  background-color: rgb(205, 6, 6);
+  color: #fff;
+  border: none;
+}
