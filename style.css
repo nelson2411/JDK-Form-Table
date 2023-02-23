@@ -38,7 +38,7 @@ form {
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* add box-shadow only in the right and bottom */
+  
   box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 14px 13px 22px -8px rgba(0, 0, 0, 0.75);

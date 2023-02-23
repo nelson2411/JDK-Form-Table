@@ -29,7 +29,6 @@ const insertRow = (event) => {
   form.reset()
 }
 
-// funtion must delete the current row, so we need to target the button and the row
 
 function deleteRow(event) {
   const button = event.currentTarget
